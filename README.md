@@ -1,12 +1,16 @@
 
 <h1 align='center'>Login, Cadastro e Landing Page</h1>
 
+<h1><img src="./img/gifApresentacao.gif"></h1>
+
+---
 ### 📌 Indice:
 - Sobre
 - Linguagens Utilizadas
 - Como baixar o projeto
 - Contato
 ---
+
 ### 📝 Sobre: 
 Projeto desenvolvido em três fluxos:
 - Tela inicial (onde será colocado os dados do usuário para que ele possa fazer o login).
