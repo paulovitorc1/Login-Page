@@ -1,0 +1,148 @@
+        /* Fonte: font-family: 'Roboto', sans-serif; */
+        
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+
+        /* Variaveis: */
+        
+         :root {
+            --ligth-color: #6f9acd;
+            --middle-color: #244ca4;
+            --dark-color: #001445;
+        }
+
+        /* Elementos */
+        
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        body {
+            background-image: url(../img/Farol.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: var(--dark-color);
+        }
+        
+        button {
+            background-color: transparent;
+            border-color: var(--dark-color);
+            color: var(--dark-color);
+            padding: 7px;
+            font-weight: bold;
+            font-size: 16px;
+            margin-top: 20px;
+            border-radius: 4px;
+            cursor: pointer;
+            outline: none;
+            transition: all 0.4s ease-out;
+        }
+
+        /* Classes */
+        
+        .container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            margin-top: 10px;
+        }
+        
+        .card {
+            background-color: #ffffff80;
+            padding: 40px;
+            border-radius: 4%;
+            box-shadow: 3px 3px 1px 0px #00000070;
+        }
+        
+        .label-float input {
+            width: 100%;
+            padding: 5px 5px;
+            display: inline-block;
+            border: 0;
+            border-bottom: 2px solid var(--dark-color);
+            background-color: transparent;
+            outline: none;
+            min-width: 430px;
+            font-size: 20px;
+            transition: all .3s ease-out;
+            border-radius: 0;
+        }
+
+        
+        .label-float {
+            position: relative;
+            padding-top: 13px;
+            margin-top: 5%;
+            margin-bottom: 5%;
+        }
+        
+        .label-float label {
+            font-size: 20px;
+            color: var(--dark-color);
+            pointer-events: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 13px;
+            transition: all 0.3s ease-out;
+        }
+        
+        .justify-center {
+            display: flex;
+            justify-content: center;
+        }
+        .fa-eye {
+            position: absolute;
+            top: 20px;
+            right: 10px;
+            cursor: pointer;
+            color: var(--dark-color);
+        }
+
+        /* id */
+        #msgError {
+            text-align: center;
+            color: #ff0000;
+            background-color: #ffbbbb;
+            padding: 10px;
+            border-radius: 4px;
+            display: none;
+        }
+
+        #msgSuccess {
+            text-align: center;
+            color: #00bb00;
+            background-color: #bbffbb;
+            padding: 10px;
+            border-radius: 4px;
+            display: none;
+        }
+
+        /* + Pseudo Elementos: */
+        
+        button:hover {
+            background-color: var(--dark-color);
+            color: var(--ligth-color);
+        }
+        
+        .label-float input:focus {
+            border-bottom: 2px solid var(--ligth-color);
+        }
+        
+        .label-float input:focus+label,
+        .label-float input:valid+label {
+            font-size: 16px;
+            margin-top: 0;
+            color: var(--dark-color);
+        }
+        
+        input[type=number]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+        }
