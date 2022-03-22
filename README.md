@@ -2,10 +2,10 @@
 <h1 align='center'>Login, Cadastro e Landing Page</h1>
 
 ### 📌 Indice:
-- [Sobre](#📝-sobre)
-- [Linguagens Utilizadas](#💻-linguagens-utilizadas)
-- [Como baixar o projeto](#📁-como-baixar-o-projeto)
-- [Contato](#center-desenvolvido-por-a-href"httpswwwlinkedincominpaulo-vitor-carneiro"paulo-vitor-carneiroa-✅)
+- Sobre
+- Linguagens Utilizadas
+- Como baixar o projeto
+- Contato
 ---
 ### 📝 Sobre: 
 Projeto desenvolvido em três fluxos:
