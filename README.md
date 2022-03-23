@@ -1,5 +1,5 @@
 
-<h1 align='center'>Login, Cadastro e Landing Page</h1>
+<h1 align='center'>Login, Cadastro e Landing Page </h1>
 
 <h1 align="center"><img src="./img/gifApresentacao.gif"></h1>
 
