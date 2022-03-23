@@ -5,6 +5,7 @@
         /* Variaveis: */
         
          :root {
+            --white-color: #FFFFFF; 
             --ligth-color: #6f9acd;
             --middle-color: #244ca4;
             --dark-color: #001445;
