@@ -89,7 +89,7 @@ senha.addEventListener('keyup', () => {
     }
 });
 
-//confirmar senha//
+//confirmar senha
 confirmaSenha.addEventListener('keyup', () => {
     if (senha.value === confirmaSenha.value && confirmaSenha.value !== '') {
         labelConfirmaSenha.setAttribute('style', 'color: green');
