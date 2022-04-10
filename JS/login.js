@@ -37,7 +37,7 @@ function entrar() {
     })
 
     if(usuario.value === userValid.user && senha.value === userValid.senha && usuario.value !== '' && senha.value !== '') {
-        window.location.href='http://127.0.0.1:5500/home1.0.html';
+        window.location.href='http://127.0.0.1:5501/home1.0.html'; 
 
         let token = Math.random().toString(16).substring(2) + Math.random().toString(16).substring(2);
         localStorage.setItem('token', token);

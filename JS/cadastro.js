@@ -126,7 +126,7 @@ function cadastrar() {
         msgError.setAttribute('style', 'display: none');
 
         setTimeout(() => {
-            window.location.href = 'http://127.0.0.1:5500/login.html'
+            window.location.href = 'http://127.0.0.1:5501/login.html'
         }, 3000);
 
 
